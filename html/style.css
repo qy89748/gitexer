@@ -1,0 +1,54 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif; /* 设置字体 */
+    line-height: 1.6; /* 行高 */
+    margin: 0; /* 移除默认边距 */
+    padding: 0; /* 移除默认填充 */
+    background-color: #f4f4f4; /* 背景颜色 */
+}
+
+/* 标题样式 */
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* 文字颜色 */
+    margin-top: 0; /* 上边距 */
+}
+
+/* 段落样式 */
+p {
+    color: #666; /* 文字颜色 */
+    margin-bottom: 15px; /* 下边距 */
+}
+
+/* 链接样式 */
+a {
+    color: #007bff; /* 链接颜色 */
+    text-decoration: none; /* 移除下划线 */
+}
+
+a:hover {
+    text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block; /* 使元素为内联块级元素 */
+    background-color: #007bff; /* 背景颜色 */
+    color: white; /* 文字颜色 */
+    padding: 10px 20px; /* 内填充 */
+    border-radius: 5px; /* 边框圆角 */
+    text-align: center; /* 文字居中 */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+}
+
+/* 表单元素样式 */
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* 宽度100% */
+    padding: 10px; /* 内填充 */
+    margin-bottom: 10px; /* 下边距 */
+    border: 1px solid #ccc; /* 边框样式 */
+    border-radius: 4px; /* 边框圆角 */
+}
+
